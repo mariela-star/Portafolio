@@ -57,24 +57,22 @@
     <!--Termino del Navbar-->
 
     <!--Comienzo Encabezado-->
-
     <header class="encabezado text-right py-5">
       <div class="container">
           <h1 class="display-1 font-weight-bold my-3">Mi nombre es Mariela</h1>
-          <p class="my-3">Diseñadora Gráfica</p>
-          <input type="button" onclick="alert('Bienvenido/a a mi pagina :D ')" value="¡Hola!"/>
+          <button onclick="alert('Bienvenido/a a mi pagina :D ')">¡Hola!</button>
       </div>
     </header>
+    <!--Termino encabezado-->
+
 
     <!--Acerca de mi-->
-
   <div class="d-none d-ms-none d-md-block">  
     <section id="about">
      <h2 class="aboutme">Acerca de mí</h2> 
-       <hr class="linea-sub">
 
-        <div class="container">
-          <div class="row">
+        <div class="container-fluid my-5 p-5 bg-danger">
+          <div class="row justify-content-center">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-x1-3">
                 <p class="text-center my-3">Mi nombre completo es Mariela Alejandra Escobar Cueto tengo 33 años, titulada de Diseñador Gráfico 
                   Publicitario en el año 2011. Soy Chilena, Vivo aún con mi mamá 
@@ -89,7 +87,7 @@
             </div>
   
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-x1-3">
-              <p class="text-center my-3">Revise las distintas carreras y cursos y esta fue la que me llamo mas la atención. Ya llevamos mes y medio aprendiendo códigos HTML y las distintas propiedades que hay para darle estilo y animar una pagina Web.Mi aréa laboral, después de graduarme, estube trabajando en Monarch, en el aréa de producción por un año. Trabaje por turnos;dia, tarde y noche. Por el turno noche tuve que buscar en otra parte. Despúes trabaje en Alpha Print, en el aréa de Imprenta, por tres meses. 
+              <p class="text-center my-3">Revise las distintas carreras y cursos y esta fue la que me llamo mas la atención. Ya llevamos mes y medio aprendiendo códigos HTML y las distintas propiedades que hay para darle estilo y animar una pagina Web. En mi aréa laboral, después de graduarme, trabaje en Monarch, en el aréa de producción por un año. Fue por turnos; dia, tarde y noche. Por el turno noche tuve que buscar en otra parte. Despúes trabaje en Alpha Print, en el aréa de Imprenta, por tres meses. 
               Actualmente trabajo haciendo aseo en un condominio en la comuna de la Cisterna.
               Estas fueron una de las razones por las que quise estudiar, para ampliar mis conocimientos, aprender mas y tener mejores oportunidades en lo laboral.</p>
               <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Sigueme">Gracias por leerme</button>
@@ -98,12 +96,15 @@
         </div>
       </section>
   </div>
+  <!--Termino acerca de mi-->
       
       <!--Mi Experiencia-->
     <section id="experiencia" class="container-fluid my-5 p-5">
-        <h2 class="text-center text-white font-weight-bold">Mi Experiencia</h2>
-      <div class="centrado">
-        <div class="row mt-5 pt-3 mb-3 ml-2 mr-2">
+        <h2 class="text-center">Mi Experiencia</h2>
+        <hr>
+        <h3 class="text-center">Trabajos de corto tiempo</h3>
+      <div>
+        <div class="row mt-5 pt-3 mb-3 justify-content-center">
             <div class="col-md-4">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
                   <div class="carousel-inner">
@@ -132,11 +133,12 @@
             </div>
       </div>
     </section>
-        
-      <!--Mis Trabajos-->
-    
+    <!--Termino Carousel-->    
+      
+    <!--Mis Trabajos--> 
    <section id="work" class="container-fluid my-5 p-5 bg-danger">
-          <h2 class="display-3 text-center font-weight-bold my-4 text-white">Mis trabajos</h2>
+          <h2 class="text-center text-white my-4">Mis trabajos</h2>
+          <h3 class="text-center">Trabajos realizados en la Academia Latam</h3>
 
       <div class="container">
         <div class="row mt-5 pt-3 mb-3 ml-2 mr-2">
@@ -146,7 +148,8 @@
             <div class="p-2 col-xs-12 col-sm-12 col-md-6 col-lg-4 col-x1-3">
               <div class="card">
                 <img src="assets/img/meet_coffee.png" class="card-img-top" alt="meet">
-    
+
+    <!--Comienzo Cards-->
                   <div class="card-body">
                     <h5 class="card-title">Meet and Coffee</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -162,6 +165,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Iguana</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque iusto, id nostrum voluptatem consequatur,</p>
                     <a class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#iguana">Ver mas</a>
                   </div>
               </div>
@@ -210,6 +214,7 @@
                   <div class="card-body">
                     <h5 class="card-title">Dmark</h5>
                     <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi impedit odit vitae eos alias beatae</p>
                     <a class="btn btn-outline-info mr-4" data-toggle="modal" data-target="#dmark">Ver mas</a>
                   </div>
               </div>
@@ -218,6 +223,8 @@
         </div>
       </div>
    </section>
+
+   <!--Comienzo Modal-->
 
    <!--MeetandCoffee-->
    <div class="modal fade" id="meet" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -295,7 +302,6 @@
   </div>
 
   <!--Cuppon-->
-
   <div class="modal fade" id="cuppon" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -321,7 +327,6 @@
   </div>
 
   <!--Ricomida-->
-
   <div class="modal fade" id="ricomida" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -347,7 +352,6 @@
   </div>
 
   <!--Dmark-->
-
   <div class="modal fade" id="dmark" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -371,21 +375,23 @@
       </div>
     </div>
   </div>
-    
+  <!--Termino Modal-->
+    <!--Termino Trabajos-->
+
+
       <!--Contacto-->
           <section id="contacto" class="container-fluid my-5">
-            <h2 class="text-center">Contactame</h2>
+            <h2 class="text-center">Contáctame</h2>
 
             <div class="typeform-widget" data-url="https://form.typeform.com/to/V9gsQon9" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
             
           </section> 
+        <!--Termino contacto-->
 
 
-
-      <!--Footer-->    
-
+      <!--Comienzo Footer-->    
       <footer class="bg-dark text-center text-light p-3">
-          <p id="nombre">Mariela</p> 
+          <p id="nombre">Mariela Escobar</p> 
           <div>
            <a href="https://facebook.com/tsuki_shade"><i class="fab fa-facebook fa-2x my-3"></i></a> 
            <a href="https://instagram.com/marielaescobar31"><i class="fab fa-instagram fa-2x my-3"></i></a> 
@@ -393,7 +399,10 @@
            <a href="https://gmail.com"><i class="fas fa-at fa-2x my-3"></i></a>
           </div>
       </footer>
-      
+    <!--Termino Footer-->
+
+
+    <!--jQuery,Popper y Boostrap-->  
       <!--jQuery 3.3.1 sin sim-->
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 

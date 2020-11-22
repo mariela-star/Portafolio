@@ -3,10 +3,18 @@ body {
     font-family: Patrick hand, sans-serif;
 }
 
+/*h2, h3*/
+
+h2 {
+    font-size: 35px;
+    font-weight: 600;
+    color: sienna;
+}
+
 /*Textos*/
 .letra, .encabezado {
     font-family: Dancing script,sans-serif;
-    color: #000000;
+    color: sienna;
 }
 
 .letra {
@@ -15,7 +23,7 @@ body {
 }
 
 .encabezado {
-    color: #000000;
+    color: rgba(110, 3, 74, 0.849);
     font-size: 38px;
     text-shadow: 0.125em 0.25em 0.125em;
     padding: 6.25rem 3.125rem;
@@ -33,11 +41,6 @@ body {
 }
 /*Termino textos*/
 
-/*Carousel*/
-#centrado {
-    text-align: center;
-}
-
 /*Encabezado imagen*/
 .encabezado {
     background-image: url('../img/bg-hero.png');
@@ -48,9 +51,6 @@ body {
 /*Termino img*/
 
 /*Texto acerca de mi*/
-.linea-sub {
-    text-align: center;
-}
 
 .text-center {
     text-align: center;
